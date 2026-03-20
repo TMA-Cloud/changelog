@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "tag": "v1.0.0",
+  "date": "2025-05-31",
+  "channel": "stable",
+  "title": "Version 1 Changelog",
+  "intro": "Version 1 release",
+  "items": [
+    "Basic file management",
+    "User authentication",
+    "File sharing",
+    "Basic admin features"
+  ],
+  "spatialNotes": "See Version 2 for new features"
+}

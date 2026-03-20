@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "required": ["version", "tag", "items"],
+  "properties": {
+    "version": { "type": "string" },
+    "tag": { "type": "string" },
+    "date": { "type": "string" },
+    "channel": { "type": "string" },
+    "title": { "type": "string" },
+    "intro": { "type": "string" },
+    "items": { "type": "array", "items": { "type": "string" } },
+    "spatialNotes": { "type": "string" }
+  }
+}

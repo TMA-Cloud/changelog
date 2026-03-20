@@ -1,0 +1,21 @@
+{
+  "version": "2.0.15",
+  "tag": "v2.0.15",
+  "date": "2026-03-21",
+  "channel": "stable",
+  "title": "Version 2.0.15 Changelog",
+  "intro": "Current stable release",
+  "items": [
+    "Add script to rotate file encryption keys",
+    "Add progress indicator for upload scan, deletion and restoration",
+    "Show deleted folders in a single list on trash page",
+    "Fix file location info in info modal",
+    "Fix stale search cache and bleed",
+    "Show share/star buttons in Shared/Starred page",
+    "Aggregate MIME security logs to prevent spamming logs",
+    "Add finalizing state for uploads progress UI",
+    "Reduce so duplicate codes/functions",
+    "Collapse OnlyOffice and Share Base URL settings sections",
+    "Auto fetch new release changelogs and tags for wiki"
+  ]
+}

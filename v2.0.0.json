@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tag": "v2.0.0",
+  "date": "2026-01-10",
+  "channel": "stable",
+  "title": "Version 2.0.0 Changelog",
+  "intro": "Initial Version 2 release",
+  "items": [
+    "Complete rewrite in Node.js and React",
+    "New Single-Origin architecture",
+    "Enhanced security and validation",
+    "Better performance and scalability"
+  ]
+}
