@@ -1,0 +1,18 @@
+{
+  "version": "2.0.17",
+  "tag": "v2.0.17",
+  "date": "2026-04-09",
+  "channel": "stable",
+  "title": "Version 2.0.17 Changelog",
+  "intro": "Current stable release",
+  "items": [
+    "Add Electron client heartbeat to display connected desktop clients",
+    "Refactor Settings UI to a sidebar layout for better navigation",
+    "Show creation date and MFA status in profile information",
+    "Fix settings page navbar on mobile view",
+    "Add auto background update for electron client app",
+    "Rename 'Spatial Notes' heading to Notes for wiki",
+    "Update wiki dependencies for Docusaurus 3.10.0 compatibility",
+    "Update backend and frontend package dependencies"
+  ]
+}
