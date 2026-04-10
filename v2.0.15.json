@@ -4,7 +4,7 @@
   "date": "2026-03-21",
   "channel": "stable",
   "title": "Version 2.0.15 Changelog",
-  "intro": "Current stable release",
+  "intro": "Previous stable release",
   "items": [
     "Add script to rotate file encryption keys",
     "Add progress indicator for upload scan, deletion and restoration",
