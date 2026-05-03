@@ -4,7 +4,7 @@
   "date": "2026-04-09",
   "channel": "stable",
   "title": "Version 2.0.17 Changelog",
-  "intro": "Current stable release",
+  "intro": "Previous stable release",
   "items": [
     "Add Electron client heartbeat to display connected desktop clients",
     "Refactor Settings UI to a sidebar layout for better navigation",

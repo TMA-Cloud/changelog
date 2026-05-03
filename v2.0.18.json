@@ -1,0 +1,33 @@
+{
+  "version": "2.0.18",
+  "tag": "v2.0.18",
+  "date": "2026-05-03",
+  "channel": "stable",
+  "title": "Version 2.0.18 Changelog",
+  "intro": "Current stable release",
+  "items": [
+    "Fix Google OAuth MFA email leak",
+    "Request auth and MFA for password change",
+    "Auto clean S3 orphaned objects if controller rejects",
+    "Fix race condition in file copy id",
+    "Add depth limit to recursive folder size",
+    "Add CSRF defense-in-depth via custom request header",
+    "Reduce JSON body limit from 10MB to 1MB",
+    "Validate MFA QR code data:image/URI before rendering",
+    "Fix toast ID collision issue",
+    "Fix body overflow restore with nested modals",
+    "Clean up copy/long-press timeout on ShareLinkModal and FileItem unmount",
+    "Fix PasteProgress value to 0-100",
+    "Fix event listener leak in MobileImageViewer",
+    "Add proper backoff to SSE EventSource reconnection",
+    "Enable Chromium sandbox for renderer security",
+    "Validate IPC origin against trusted server URL",
+    "Fix file watcher resource leak in desktop edit handler",
+    "Prevent temp cleanup from racing active edit sessions",
+    "Guard webRequest header injection",
+    "Cleanup duplicate backend/frontend/electron codes",
+    "Improve wiki accuracy/structure/UI-gallery",
+    "Unify cloud and OS clipboards into one Copy/Cut/Paste system",
+    "Many other minor bug fixes and under the hood improvements"
+  ]
+}
