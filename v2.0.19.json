@@ -1,0 +1,14 @@
+{
+  "version": "2.0.19",
+  "tag": "v2.0.19",
+  "date": "2026-05-13",
+  "channel": "stable",
+  "title": "Version 2.0.19 Changelog",
+  "intro": "Current stable release",
+  "items": [
+    "Update backend frontend electron wiki package dependencies",
+    "Accept XML MIME types for .svg uploads",
+    "Bump GitHub Actions to latest majors and Node 24",
+    "Only build Docker images on release tags"
+  ]
+}
