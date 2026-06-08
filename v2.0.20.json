@@ -1,0 +1,19 @@
+{
+  "version": "2.0.20",
+  "tag": "v2.0.20",
+  "date": "2026-06-09",
+  "channel": "stable",
+  "title": "Version 2.0.20 Changelog",
+  "intro": "Current stable release",
+  "items": [
+    "Fix upload rejecting file names with embedded '..'",
+    "Fix OnlyOffice callback rejected by CSRF middleware",
+    "Fix CSP race condition OnlyOffice origin cache at startup",
+    "Fix image viewer zoom focusing on the wrong point",
+    "Verify OnlyOffice callback JWT signature",
+    "Guard folder listing against out-of-order responses",
+    "Destroy OnlyOffice editor on document switch or close",
+    "Latch downloadFiles on a ref to prevent duplicate downloads",
+    "Clear image src when revoking blob URL in useImageBlob"
+  ]
+}
