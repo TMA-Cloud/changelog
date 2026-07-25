@@ -1,0 +1,16 @@
+{
+  "version": "2.0.22",
+  "tag": "v2.0.22",
+  "date": "2026-07-26",
+  "channel": "stable",
+  "title": "Version 2.0.22 Changelog",
+  "intro": "Current stable release",
+  "items": [
+    "Install TMA Cloud per-machine so WinFsp auto-install",
+    "Default cloud drive to Save-only Mode",
+    "Report stable synthetic capacity for unlimited S3 drives",
+    "Stream S3 file-replace directly to bucket",
+    "Gracefully unmount cloud drive on app stop",
+    "Fix memory leaks in image viewers and marquee selector"
+  ]
+}

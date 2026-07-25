@@ -4,7 +4,7 @@
   "date": "2026-07-25",
   "channel": "stable",
   "title": "Version 2.0.21 Changelog",
-  "intro": "Current stable release",
+  "intro": "Previous stable release",
   "items": [
     "Add Cloud Drive: mount TMA Cloud as a Windows drive (WinFsp)",
     "Cloud Drive: fix SSE cache-thrash, mount lifecycle leaks/races",
