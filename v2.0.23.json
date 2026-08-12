@@ -1,0 +1,15 @@
+{
+  "version": "2.0.23",
+  "tag": "v2.0.23",
+  "date": "2026-08-13",
+  "channel": "stable",
+  "title": "Version 2.0.23 Changelog",
+  "intro": "Current stable release",
+  "items": [
+    "Replace automatic orphan cleaner with admin review UI",
+    "Add sub-users with per-permission access control",
+    "Group sub-users under their owner in the user list",
+    "Report real per-account storage in the user list",
+    "Reject storage limits below current usage, add reset control"
+  ]
+}
