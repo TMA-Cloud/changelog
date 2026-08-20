@@ -4,7 +4,7 @@
   "date": "2026-08-13",
   "channel": "stable",
   "title": "Version 2.0.23 Changelog",
-  "intro": "Current stable release",
+  "intro": "Previous stable release",
   "items": [
     "Replace automatic orphan cleaner with admin review UI",
     "Add sub-users with per-permission access control",
