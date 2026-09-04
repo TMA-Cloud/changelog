@@ -1,0 +1,31 @@
+{
+  "version": "3.1.0",
+  "tag": "v3.1.0",
+  "date": "2026-09-05",
+  "channel": "stable",
+  "title": "Version 3.1.0 Changelog",
+  "intro": "Current stable release",
+  "items": [
+    "Switch file encryption to AES-GCM-HKDF streaming with 1 MB segments",
+    "Serve single-file downloads with HTTP Range 206 responses",
+    "Add envelope encryption so key rotation only rewraps stored keys",
+    "Ship resumable scripts for key rotation and the one-time backfill",
+    "Stop rejecting uploads on a MIME type mismatch",
+    "Detect the stored MIME type from file content on the S3 path",
+    "Redesign the public file and folder share pages",
+    "Let shared folder rows browse into subfolders",
+    "Zip the current level with 'Download all' on share pages",
+    "Return a generic 404 for folders outside a share",
+    "Show real per-file progress for downloads and open-on-desktop",
+    "Stream real progress for delete, restore and permanent delete",
+    "Split large select-all deletes into batches of 500",
+    "Render toolbar tooltips in a portal so the header can't clip them",
+    "Fix an unhandled promise rejection in the streaming-migrate script",
+    "Split the backend into thin barrels with per-concern modules",
+    "Split the frontend into thin shells with per-concern hooks",
+    "Split the electron and desktop-fs code into barrels and partial classes",
+    "Add an ESLint max-lines guardrail on the backend",
+    "Bump CI action tag versions",
+    "Update backend, frontend and electron dependencies"
+  ]
+}
