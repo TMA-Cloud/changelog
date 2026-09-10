@@ -1,0 +1,16 @@
+{
+  "version": "3.1.1",
+  "tag": "v3.1.1",
+  "date": "2026-09-11",
+  "channel": "stable",
+  "title": "Version 3.1.1 Changelog",
+  "intro": "Current stable release",
+  "items": [
+    "Remove support for local file storage",
+    "Add known proxies administration setting UI/UX",
+    "Fix intermittent empty share requests",
+    "Show share timestamps and remaining time",
+    "Fix mobile sheets and PWA install theme",
+    "Use PNG icon assets across app"
+  ]
+}
