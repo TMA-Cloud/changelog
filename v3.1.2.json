@@ -1,0 +1,20 @@
+{
+  "version": "3.1.2",
+  "tag": "v3.1.2",
+  "date": "2026-09-15",
+  "channel": "stable",
+  "title": "Version 3.1.2 Changelog",
+  "intro": "Current stable release",
+  "items": [
+    "Fix active session presence and IP refresh",
+    "Optimize encrypted storage and quota accounting",
+    "Add indexed cursor pagination and virtualized lists",
+    "Move maintenance and bulk operations to workers",
+    "Bound cache, sharing, and session fanout",
+    "Stream Electron uploads without plaintext staging",
+    "Move durable file work to background worker",
+    "Fix mobile recent file name overflow",
+    "Make object storage portable across S3 and R2",
+    "Fix immediate refresh after sharing files"
+  ]
+}

@@ -4,7 +4,7 @@
   "date": "2026-09-11",
   "channel": "stable",
   "title": "Version 3.1.1 Changelog",
-  "intro": "Current stable release",
+  "intro": "Previous stable release",
   "items": [
     "Remove support for local file storage",
     "Add known proxies administration setting UI/UX",
