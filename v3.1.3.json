@@ -1,0 +1,16 @@
+{
+  "version": "3.1.3",
+  "tag": "v3.1.3",
+  "date": "2026-09-24",
+  "channel": "stable",
+  "title": "Version 3.1.3 Changelog",
+  "intro": "Current stable release",
+  "items": [
+    "Show upload progress for clipboard pastes",
+    "Move remaining background work off the API process",
+    "Read folder totals only from the maintained aggregates",
+    "Regroup settings so each band holds one kind of control",
+    "Soften the light theme to comfortable contrast",
+    "Split index.css into ITCSS-ordered partials"
+  ]
+}

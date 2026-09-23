@@ -1,8 +1,15 @@
 {
   "name": "TMA Cloud Changelog",
-  "updatedAt": "2026-09-15",
-  "latest": "3.1.2",
+  "updatedAt": "2026-09-24",
+  "latest": "3.1.3",
   "versions": [
+    {
+      "version": "3.1.3",
+      "tag": "v3.1.3",
+      "file": "v3.1.3.json",
+      "date": "2026-09-24",
+      "channel": "stable"
+    },
     {
       "version": "3.1.2",
       "tag": "v3.1.2",
