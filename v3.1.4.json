@@ -1,0 +1,29 @@
+{
+  "version": "3.1.4",
+  "tag": "v3.1.4",
+  "date": "2026-10-01",
+  "channel": "stable",
+  "title": "Version 3.1.4 Changelog",
+  "intro": "Current stable release",
+  "items": [
+    "Install and update the desktop app without the setup wizard",
+    "Only download and run https .exe or .msi updates",
+    "Validate IPC senders and match navigation origin exactly",
+    "Harden Google sign-in and password login",
+    "Limit failed logins per IP and per account",
+    "Enforce a strict script CSP and escape the viewer page",
+    "Keep share links from exposing trashed or foreign files",
+    "Require Download permission to open documents",
+    "Let OnlyOffice save while desktop-only access is on",
+    "Show every item of large folders on the Cloud Drive",
+    "Lock Cloud Drive creates per path instead of globally",
+    "Fix bridge line framing and speed up clipboard copies",
+    "Keep folder ZIP downloads from hanging or starving the DB pool",
+    "Make migrations atomic and drain requests on shutdown",
+    "Stop transfer progress from re-rendering the whole app",
+    "Share one Redis subscriber across all SSE streams",
+    "Speed up password hashing, auth lookups, and encryption streams",
+    "Name the field in validation errors and show the reason",
+    "Match % and _ literally in file search"
+  ]
+}
