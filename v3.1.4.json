@@ -4,7 +4,7 @@
   "date": "2026-10-01",
   "channel": "stable",
   "title": "Version 3.1.4 Changelog",
-  "intro": "Current stable release",
+  "intro": "Previous stable release",
   "items": [
     "Install and update the desktop app without the setup wizard",
     "Only download and run https .exe or .msi updates",

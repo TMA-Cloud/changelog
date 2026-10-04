@@ -1,0 +1,31 @@
+{
+  "version": "3.1.5",
+  "tag": "v3.1.5",
+  "date": "2026-10-05",
+  "channel": "stable",
+  "title": "Version 3.1.5 Changelog",
+  "intro": "Current stable release",
+  "items": [
+    "Open any file type on desktop with its default app",
+    "Refuse to open programs, scripts and shortcuts on desktop",
+    "Keep both items when a paste meets a name clash",
+    "Refuse pastes whose items or destination folder are gone",
+    "Claim the Windows clipboard on in-app copy and cut",
+    "Paste whichever clipboard was copied last",
+    "Paste a copy any number of times and a cut once",
+    "Allow clipboard shortcuts only where the menu does",
+    "Refresh the open folder after a slow paste",
+    "Take the heartbeat session from the token only",
+    "Replace file icons with flat pages labelled by format",
+    "Draw every icon at one stroke weight",
+    "Remove dead code and check for it with knip in CI",
+    "Fail the Cloud Drive host build on dead code",
+    "Add git hooks for staged checks and commit messages",
+    "Limit the Docker build context to frontend and backend",
+    "Update backend, frontend and electron dependencies",
+    "Show each file's type label in Get Info",
+    "Keep dotfile names whole when extensions are hidden",
+    "Show shared files by extension on the share page",
+    "Add Explorer-style keyboard navigation to the file list"
+  ]
+}
