@@ -4,7 +4,7 @@
   "date": "2026-10-05",
   "channel": "stable",
   "title": "Version 3.1.5 Changelog",
-  "intro": "Current stable release",
+  "intro": "Previous stable release",
   "items": [
     "Open any file type on desktop with its default app",
     "Refuse to open programs, scripts and shortcuts on desktop",
