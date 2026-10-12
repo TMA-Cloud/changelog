@@ -1,0 +1,32 @@
+{
+  "version": "3.1.7",
+  "tag": "v3.1.7",
+  "date": "2026-10-13",
+  "channel": "stable",
+  "title": "Version 3.1.7 Changelog",
+  "intro": "Current stable release",
+  "items": [
+    "Accept file names with : * ? \" < > | and device names like CON",
+    "Allow names up to 255 characters for new folders and renames",
+    "Give folder ZIP entries names that extract on Windows",
+    "Show files on the Cloud Drive whose names Windows cannot hold",
+    "Keep those names intact when created, renamed or saved on the Cloud Drive",
+    "Create each folder once when uploads run in parallel",
+    "Merge an uploaded folder into one whose name differs only in case",
+    "Paste folders copied in Explorer into the desktop app",
+    "List links, junctions and unreadable files skipped in a pasted folder",
+    "Show the server's reason when an upload is refused",
+    "Copy files to Explorer under names Windows accepts",
+    "Stop files whose names differ only in case overwriting each other in Explorer",
+    "Name the files that could not be copied to Explorer",
+    "Fix pasted file names with characters outside the console code page",
+    "Set Postgres with DATABASE_URL instead of DB_* variables",
+    "Set Redis with REDIS_URL instead of REDIS_* variables",
+    "Connect to Redis over TLS with rediss:// URLs",
+    "Take the Postgres and Redis container passwords from the same URLs",
+    "Rename BPORT to PORT and publish it as the host port in Docker",
+    "Redact DATABASE_URL and REDIS_URL in logs",
+    "Run the backup script when piped from curl into bash",
+    "Ask for restore confirmation on the terminal when piped"
+  ]
+}

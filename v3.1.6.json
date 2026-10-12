@@ -4,7 +4,7 @@
   "date": "2026-10-10",
   "channel": "stable",
   "title": "Version 3.1.6 Changelog",
-  "intro": "Current stable release",
+  "intro": "Previous stable release",
   "items": [
     "Set the storage bucket in Settings instead of .env",
     "Check a bucket's access before saving its settings",
