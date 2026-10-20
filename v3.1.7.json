@@ -4,7 +4,7 @@
   "date": "2026-10-13",
   "channel": "stable",
   "title": "Version 3.1.7 Changelog",
-  "intro": "Current stable release",
+  "intro": "Previous stable release",
   "items": [
     "Accept file names with : * ? \" < > | and device names like CON",
     "Allow names up to 255 characters for new folders and renames",

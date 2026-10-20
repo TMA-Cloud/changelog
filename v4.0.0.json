@@ -1,0 +1,80 @@
+{
+  "version": "4.0.0",
+  "tag": "v4.0.0",
+  "date": "2026-10-20",
+  "channel": "stable",
+  "title": "Version 4.0.0 Changelog",
+  "notice": "Version 4 rewrites TMA Cloud in Rust: update with `update.sh`, which backs up the database and renames the changed settings in `.env`, and install the new desktop app.",
+  "groups": {
+    "changed": [
+      {
+        "text": "Rewrite the server, web app and desktop app in Rust",
+        "breaking": true
+      },
+      {
+        "text": "Rename `NODE_ENV` to `APP_ENV` and `AUDIT_WORKER_CONCURRENCY` to `WORKER_CONCURRENCY`",
+        "breaking": true
+      },
+      {
+        "text": "Report separate server, web and desktop versions from `GET /api/version/latest`, without the `electron` key",
+        "breaking": true
+      },
+      "Run the API, background worker and admin commands from one `tma-server` binary",
+      "Share one interface between the web app and the desktop app",
+      "Run Cloud Drive without a driver: Cloud Files on Windows, FUSE on Linux, NFS on macOS",
+      "Redesign Settings as grouped sections, with plain wording throughout",
+      "Redesign the sign-in and sign-up screens",
+      "Redesign the share dialog, and light the Share button for shared items",
+      "Rework the file toolbar and the upload dialog",
+      "Sort names without regard to case, with numbers by value",
+      "Select the folder you came from when going up",
+      "Refuse a new or renamed folder whose name is already taken, in any letter case",
+      "Split the sub-user trash permission into restore and delete forever; sub-users who could manage the trash keep both",
+      "Give each signed-in user 30,000 requests per 15 minutes, and stop counting the event stream",
+      "Copy stored objects 24 at a time and delete them in batches of 1,000",
+      "Update folder totals and storage use once per statement",
+      "Restore backups into a scratch database and swap it in only on success",
+      "Send every download as an attachment in a sandbox",
+      "Read the release feed from `VERSIONS_URL`",
+      "Switch the interface font to Figtree"
+    ],
+    "added": [
+      "Add the desktop app for Windows, macOS and Linux, with updates installed in the background",
+      "Download Cloud Drive files when opened and upload changes as they are saved",
+      "Re-list only the Cloud Drive folders that changed, within half a second",
+      "Keep Office and editor backup files on the computer, out of the cloud",
+      "Open files in their desktop app on double-click, through Cloud Drive",
+      "Copy and paste files and folders between the desktop app and File Explorer on Windows",
+      "Keep the desktop sign-in while the server is out of reach",
+      "Lock a file while someone edits it in Cloud Drive, a desktop app or ONLYOFFICE",
+      "Show who is editing a file, and open it read-only for everyone else",
+      "Keep a save made from an outdated copy as a conflicted copy instead of overwriting",
+      "Add an About page with versions, links and Copy details for bug reports",
+      "Show a revisited folder at once while its fresh listing loads",
+      "Jump to items by typing their first letters",
+      "Ask before moving items to the trash or into another folder",
+      "Check names as you type in New folder and Rename",
+      "Zoom and pan in the image viewer",
+      "Show who opened each file in Recent files",
+      "Show the password while typing it, and let password managers fill the sign-in form",
+      "Report which folders changed since a cursor with `GET /api/files/changes`",
+      "Cap the memory uploads may buffer across the server with `UPLOAD_MEMORY_MB`",
+      "Listen on IPv6 as well as IPv4"
+    ],
+    "removed": [
+      {
+        "text": "Remove Google sign-in",
+        "breaking": true
+      },
+      "Remove the Node, React, Electron and .NET code",
+      "Stop reading `AUDIT_JOB_TTL_SECONDS`"
+    ],
+    "fixed": [
+      "Stop parallel writes from deadlocking by locking the account, then folders in order",
+      "Read a refused upload before answering, so apps show the reason instead of a dropped connection",
+      "Deliver file events locally while Redis is unreachable",
+      "Refuse ONLYOFFICE saves from internal addresses",
+      "Run `update.sh` on bash 3.2"
+    ]
+  }
+}
