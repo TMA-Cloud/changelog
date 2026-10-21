@@ -1,0 +1,19 @@
+{
+  "version": "4.0.2",
+  "tag": "v4.0.2",
+  "date": "2026-10-21",
+  "channel": "stable",
+  "title": "Version 4.0.2 Changelog",
+  "groups": {
+    "changed": [
+      "Show the person who uploaded a file in Recent files until someone opens it",
+      "Show files added elsewhere to a folder made in Cloud Drive without waiting for the next full resync"
+    ],
+    "fixed": [
+      "Fix Cloud Drive keeping the old contents of a file opened on A computer after someone else saved it, which turned the next save into conflicted copy",
+      "Fix Cloud Drive making a new conflicted copy at every start for a file renamed on the server while it was downloaded here",
+      "Fix files that stayed read-only after someone else stopped editing them",
+      "Fix files in Cloud Drive failing to open with \"The cloud operation is invalid\" after signing out and in again"
+    ]
+  }
+}

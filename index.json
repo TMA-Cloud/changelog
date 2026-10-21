@@ -1,8 +1,15 @@
 {
   "name": "TMA Cloud Changelog",
   "updatedAt": "2026-10-21",
-  "latest": "4.0.1",
+  "latest": "4.0.2",
   "versions": [
+    {
+      "version": "4.0.2",
+      "tag": "v4.0.2",
+      "file": "v4.0.2.json",
+      "date": "2026-10-21",
+      "channel": "stable"
+    },
     {
       "version": "4.0.1",
       "tag": "v4.0.1",
