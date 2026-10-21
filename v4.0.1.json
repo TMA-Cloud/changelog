@@ -1,0 +1,25 @@
+{
+  "version": "4.0.1",
+  "tag": "v4.0.1",
+  "date": "2026-10-21",
+  "channel": "stable",
+  "title": "Version 4.0.1 Changelog",
+  "groups": {
+    "changed": [
+      "Show why the server cannot be reached on the desktop app's Can't reach screen, and open new connections on each retry"
+    ],
+    "added": [
+      "Add `locationIds` to `GET /api/files/{id}/info`, the ids of the folders in `locationPath`",
+      "Show a message when the desktop app cannot open its window, instead of closing without a word"
+    ],
+    "fixed": [
+      "Fix the desktop app not opening on Windows PCs without a graphics card",
+      "Fix Cloud Drive uploading a workbook again every few seconds while Excel keeps it open",
+      "Fix Cloud Drive keeping your own repeated saves of an open `.xls` file as conflicted copies",
+      "Fix Show in folder opening My Files for recent files, and losing the folders above it from search results",
+      "Fix the search box keeping its text after leaving the search results",
+      "Fix the sign-in fields flickering when clicked",
+      "Fix the desktop window opening past the bottom of small or scaled screens"
+    ]
+  }
+}
