@@ -1,0 +1,24 @@
+{
+  "version": "4.0.3",
+  "tag": "v4.0.3",
+  "date": "2026-10-26",
+  "channel": "stable",
+  "title": "Version 4.0.3 Changelog",
+  "groups": {
+    "changed": [
+      "Show a desktop app update in a card in the middle of the window, over a blurred view of the app, with its download progress and then that it is installing",
+      "Switch the interface font to Inter and make text larger, with 14 px body text and 15 px file names in lists",
+      "Keep the opening animation on a file in the desktop app until its app shows it, and ignore further clicks while it opens"
+    ],
+    "added": [
+      "Add Settings > Appearance with the theme and a Text size choice from 90% to 130%",
+      "Add Cancel all to the transfers panel, to stop every running upload and download at once"
+    ],
+    "fixed": [
+      "Fix Excel 97-2003 workbooks (`.xls`, `.xlt`) opened through Cloud Drive not being locked for others while they were edited",
+      "Fix blocky edges on light text in the dark theme",
+      "Fix long names and email addresses being cut off in the account button",
+      "Fix long file names in Recent files running past the edge of the card"
+    ]
+  }
+}
