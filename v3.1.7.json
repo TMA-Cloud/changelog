@@ -28,5 +28,6 @@
     "Redact DATABASE_URL and REDIS_URL in logs",
     "Run the backup script when piped from curl into bash",
     "Ask for restore confirmation on the terminal when piped"
-  ]
+  ],
+  "spatialNotes": "See Version 4 for new features"
 }
