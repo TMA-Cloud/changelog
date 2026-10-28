@@ -1,0 +1,25 @@
+{
+  "version": "4.0.4",
+  "tag": "v4.0.4",
+  "date": "2026-10-28",
+  "channel": "stable",
+  "title": "Version 4.0.4 Changelog",
+  "groups": {
+    "changed": [
+      "Run Cloud Drive on Windows on a small Cloud Files layer of TMA Cloud's own instead of the cloud-filter library",
+      "Ship only the icons the apps use, cutting the icon font in the web and desktop apps from 488 KB to 26 KB",
+      "Update `rustls-webpki`, `webpki-roots`, `webpki-root-certs` and `ctutils` for security advisories RUSTSEC-2026-0381, RUSTSEC-2026-0382, RUSTSEC-2026-0383 and RUSTSEC-2026-0385"
+    ],
+    "removed": [
+      "Remove the `pgboss` schema the Node.js server left in the database (migration `067_drop_pg_boss`)"
+    ],
+    "fixed": [
+      "Fix a file renamed while a program had it open not opening from the desktop app on Windows until the app was restarted",
+      "Fix a save to a file renamed while it was open creating a second file under the old name on Windows, now goes to the renamed file, which keeps its edit lock",
+      "Fix renames and new files in Cloud Drive folders first opened in File Explorer showing up only at the next full pass, up to 30 minutes later",
+      "Fix the filled star and shared icons drawing as outlines, so starred files looked unstarred",
+      "Fix saves refused by someone else's edit lock being recorded in the audit log with reason `stale_version`; they now have reason `locked` and say who is editing",
+      "Fix `processing_time_ms` being empty in every audit log entry"
+    ]
+  }
+}
