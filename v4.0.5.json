@@ -1,0 +1,27 @@
+{
+  "version": "4.0.5",
+  "tag": "v4.0.5",
+  "date": "2026-10-29",
+  "channel": "stable",
+  "title": "Version 4.0.5 Changelog",
+  "groups": {
+    "changed": [
+      "Migration `068_hot_folder_aggregates` drops an index that kept updating parent folders from staying on their page, so a save writes about half",
+      "Check background schedules without writing to the database; an idle server wrote every 20 seconds",
+      "Fetch only the columns and fields that are read, for downloads, share links, archives, the password check, the job queue and live file events"
+    ],
+    "added": [
+      "Add the `background` parameter to `GET /api/files`: Cloud Drive sends it, and such listings leave the folder's last opened time alone"
+    ],
+    "removed": [
+      {
+        "text": "Remove `POST /api/files/:id/derived`; a Save As from a desktop app is an ordinary upload through Cloud Drive, and no released app called it",
+        "breaking": true
+      }
+    ],
+    "fixed": [
+      "Fix folders showing as recently opened when only Cloud Drive had listed them to stay up to date",
+      "Fix Cloud Drive on Linux reporting 1 PiB instead of the account's storage limit and free space"
+    ]
+  }
+}
